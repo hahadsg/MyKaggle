@@ -1,6 +1,8 @@
 # remove data
 */data/input/*
 */data/output/*
+*/input/*
+*/output/*
 
 __pycache__
 
