@@ -25,3 +25,6 @@ kg config -u $kg_u -p $kg_p -c $kg_c
 # kaggle download
 kg download
 
+# unzip
+unzip -q train.zip
+unzip -q test.zip
