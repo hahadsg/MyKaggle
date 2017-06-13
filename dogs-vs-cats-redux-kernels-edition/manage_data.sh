@@ -58,5 +58,5 @@ function product_data {
     ls ./test/ | sort -R | head -n $test_num | awk '{print "./test/"$0;}' | xargs cp -t $file_name/test
 }
 
-product_data "sample" "1000" "1000"
+product_data "sample" "100" "100"
 product_data "all" "all" "all"
