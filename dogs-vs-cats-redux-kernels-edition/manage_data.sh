@@ -54,9 +54,11 @@ function product_data {
         test_num=$(ls ./test/ | wc -l)
     fi
 
-    mkdir $file_name/test
-    ls ./test/ | sort -R | head -n $test_num | awk '{print "./test/"$0;}' | xargs cp -t $file_name/test
+    mkdir -p $file_name/test/unknown/
+    ls ./test/ | sort -R | head -n $test_num | awk '{print "./test/"$0;}' | xargs cp -t $file_name/test/unknown
 }
 
-product_data "sample" "100" "100"
+product_data "sample" "1000" "1000"
+echo "product sample data, finish!\n"
 product_data "all" "all" "all"
+echo "product all data, finish!\n"

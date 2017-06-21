@@ -4,6 +4,9 @@
 */input/*
 */output/*
 
+# kaggle 
+.kaggle-cli/
+
 __pycache__
 
 *.pyc
