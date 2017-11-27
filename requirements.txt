@@ -2,3 +2,5 @@ seaborn
 missingno
 plotly
 cufflinks
+colorlover
+numba

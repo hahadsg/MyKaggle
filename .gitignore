@@ -4,14 +4,17 @@
 */input/*
 */output/*
 
+# catboost
+*.tsv
+events.out.tfevents
+
 # kaggle 
 .kaggle-cli/
 
+# python
 __pycache__
-
 *.pyc
-
-.DS_Store
-
 .ipynb_checkpoints
 
+# mac
+.DS_Store
