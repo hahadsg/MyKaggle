@@ -1,8 +1,8 @@
 # remove data
-*/data/input/*
-*/data/output/*
-*/input/*
-*/output/*
+/*/data/input/*
+/*/data/output/*
+/*/input/*
+/*/output/*
 
 # catboost
 *.tsv
