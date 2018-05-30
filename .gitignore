@@ -3,6 +3,7 @@
 /*/data/output/*
 /*/input/*
 /*/output/*
+/DEMO/trick/data/*
 
 # catboost
 *.tsv
