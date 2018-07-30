@@ -1,9 +1,9 @@
 # remove data
-/*/data/input/*
-/*/data/output/*
-/*/input/*
-/*/output/*
-/DEMO/trick/EDA/data/*
+/competitions/*/data/input/*
+/competitions/*/data/output/*
+/competitions/*/input/*
+/competitions/*/output/*
+/trick/EDA/data/*
 
 # catboost
 *.tsv
